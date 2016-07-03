@@ -80,7 +80,6 @@ main section {
 }
 
 img {
-  background-image: url("/portfolio01/images/gato.png");
   float: left;
   padding: 5%;
   max-width: 25vw;
