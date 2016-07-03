@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  font-family: Helvetica;
+  color: black;
+}
+
+aside {
+  z-index: 100;
+  position: relative;
+  text-align: left;
+  background-color: rgba(113, 219, 143, 0.69);
+  width: 30vw;
+  height: 100vh;
+  float: left;
+}
+
+aside header {
+  text-align: center;
+  position: relative;
+  height: 30vh;
+  max-height: 200px;
+  background-color: rgb(29, 105, 76);
+  margin-bottom: 10%;
+}
+
+aside header h1 {
+  font-size: 180%;
+  padding: 10%;
+  color: rgb(236, 233, 172);
+}
+
+aside h3 {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+    color: rgb(236, 233, 172);
+}
+
+aside nav a {
+  text-align: right;
+  display: block;
+  text-decoration: none;
+  padding: 5%;
+}
+
+main {
+  float: right;
+  position: relative;
+  width: 70vw;
+  height: 100vh;
+  z-index: -100;
+}
+
+main header {
+  position: relative;
+  text-align: center;
+  background-color: rgba(113, 219, 143, 0.69);
+  float: right;
+  max-height: 200px;
+  width: 70vw;
+  height: 30vh;
+  z-index: 50;
+}
+
+main header h1 {
+  padding: 5%;
+}
+
+main header h3 {
+  position: absolute;
+  padding-right: 5%;
+  padding-left: 5%;
+  bottom: 10%;
+}
+
+main section {
+  height: 100vh;
+  background-color: rgb(236, 233, 172);
+
+}
+
+img {
+  float: left;
+  padding: 5%;
+  max-width: 25vw;
+  max-height: 25vh;
+}
+
+section p {
+  clear: right;
+  padding: 5%;
+}
